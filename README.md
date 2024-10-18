@@ -85,6 +85,7 @@ C# is 140.03 times faster than GDScript
 Running Sort Inventory Benchmark:
 
 Running Sort Inventory benchmark with 1 iterations:
+
 GDScript Inventory Before Sorting:
 
 ```
@@ -118,6 +119,7 @@ GDScript Grid:
 ```
 
 C# Inventory Before Sorting:
+```
 C# Grid:
 □ □ □ □ □ □ □ □ □ □ 
 □ □ □ □ □ ■ ■ □ □ □ 
@@ -132,6 +134,7 @@ C# Grid:
 ```
 
 C# Inventory After Sorting:
+```
 C# Grid:
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ 
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ 
