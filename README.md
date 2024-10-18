@@ -102,6 +102,8 @@ GDScript Grid:
 ```
 
 GDScript Inventory After Sorting:
+
+```
 GDScript Grid:
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ 
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ 
