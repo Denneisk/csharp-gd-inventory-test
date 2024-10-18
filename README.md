@@ -27,6 +27,7 @@ Here are the results from running the benchmark on my system:
 
 ## Worst Case Scenario Item Pickup Search
 
+```
 GDScript Grid:
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ 
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ 
@@ -38,7 +39,9 @@ GDScript Grid:
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ 
 ■ ■ ■ ■ ■ ■ ■ ■ □ □ 
 ■ ■ ■ ■ ■ ■ ■ ■ □ □ 
+```
 
+```
 C# Grid:
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ 
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ 
@@ -50,6 +53,7 @@ C# Grid:
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ 
 ■ ■ ■ ■ ■ ■ ■ ■ □ □ 
 ■ ■ ■ ■ ■ ■ ■ ■ □ □ 
+```
 
 
 Running Find Space benchmark with 1 iterations:
@@ -82,6 +86,8 @@ Running Sort Inventory Benchmark:
 
 Running Sort Inventory benchmark with 1 iterations:
 GDScript Inventory Before Sorting:
+
+```
 GDScript Grid:
 □ □ □ □ □ □ □ □ □ □ 
 □ □ □ □ □ ■ ■ □ □ □ 
@@ -93,6 +99,7 @@ GDScript Grid:
 □ □ □ □ □ □ □ ■ ■ □ 
 □ □ □ □ ■ ■ □ □ □ □ 
 □ □ □ □ ■ ■ □ □ □ □ 
+```
 
 GDScript Inventory After Sorting:
 GDScript Grid:
@@ -106,6 +113,7 @@ GDScript Grid:
 □ □ □ □ □ □ □ □ □ □ 
 □ □ □ □ □ □ □ □ □ □ 
 □ □ □ □ □ □ □ □ □ □ 
+```
 
 C# Inventory Before Sorting:
 C# Grid:
@@ -119,6 +127,7 @@ C# Grid:
 □ □ □ □ □ □ □ ■ ■ □ 
 □ □ □ □ ■ ■ □ □ □ □ 
 □ □ □ □ ■ ■ □ □ □ □ 
+```
 
 C# Inventory After Sorting:
 C# Grid:
@@ -132,6 +141,7 @@ C# Grid:
 □ □ □ □ □ □ □ □ □ □ 
 □ □ □ □ □ □ □ □ □ □ 
 □ □ □ □ □ □ □ □ □ □ 
+```
 
 GDScript: Sort inventory benchmark (1 iterations) took 0.000075 seconds
 C#: Sort inventory benchmark (1 iterations) took 0.000014 seconds
