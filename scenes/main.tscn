@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://b4pcssil3n5o8"]
+[gd_scene load_steps=5 format=3 uid="uid://b4pcssil3n5o8"]
 
-[ext_resource type="Script" path="res://scenes/main.gd" id="1_dlb66"]
-[ext_resource type="Script" path="res://scenes/gd_test.gd" id="2_f4xt1"]
-[ext_resource type="Script" path="res://scenes/CsTest.cs" id="3_v6son"]
+[ext_resource type="Script" uid="uid://bd4dxcck2pyqg" path="res://scenes/main.gd" id="1_dlb66"]
+[ext_resource type="Script" uid="uid://tsaiedrfd8m5" path="res://scenes/gd_test.gd" id="2_f4xt1"]
+[ext_resource type="Script" uid="uid://cyyfrpujt08w5" path="res://scenes/CsTest.cs" id="3_v6son"]
+[ext_resource type="Script" uid="uid://dmwgmymii8anu" path="res://scenes/lua_test.lua" id="4_jyhfs"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_dlb66")
@@ -12,3 +13,6 @@ script = ExtResource("2_f4xt1")
 
 [node name="CSTest" type="Node2D" parent="."]
 script = ExtResource("3_v6son")
+
+[node name="LuaTest" type="Node2D" parent="."]
+script = ExtResource("4_jyhfs")
